@@ -11,12 +11,8 @@
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
     "typescript": "3.2.4",
-    "@nteract/data-explorer": "/home/ben/Documents/nteract/packages/data-explorer"
+    "@nteract/data-explorer": "^6.0.0"
   },
-  "//comments": [
-    "The local path to the data-explorer dep won't work for you, unless you are me",
-    "We can yarn link once `@nteract/data-explorer` has shipped the first time, but yarn complains otherwise"
-  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
